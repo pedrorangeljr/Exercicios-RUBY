@@ -1,3 +1,9 @@
+
+=begin
+   exemplo da aula de hash
+=end
+end
+
 loop do 
 
     puts "Bem vindo ao Programa"

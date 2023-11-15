@@ -1,6 +1,6 @@
 =begin
      
-     Faça um programa que leia 4 notas, mostre as notas e amedia na tela
+     Faça um programa que leia 4 notas, mostre as notas e a media na tela
 
 =end
 

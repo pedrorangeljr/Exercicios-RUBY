@@ -11,7 +11,7 @@ i = 0
 while i < 10 
 
     entrada = Integer(gets())
-    vetor << entrada
+    vetor << entrada # operador << é usado para acrescentar elementos ao final de um array existente
 
     i += 1
 

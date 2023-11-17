@@ -7,7 +7,7 @@ while i < 6
 
     if entrada % 2 == 0
 
-        vetor << entrada
+        vetor << entrada 
      
     end
 

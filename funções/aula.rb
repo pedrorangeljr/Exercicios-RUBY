@@ -7,4 +7,12 @@ def factorial(n)
 
 end
 
-puts factorial(5)
+def teste(count)
+
+    return 1 if count == 2
+     
+    1 + 420 -3
+end
+
+a = teste 2
+puts a

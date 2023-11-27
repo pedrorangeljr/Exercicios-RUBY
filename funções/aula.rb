@@ -7,13 +7,22 @@ def factorial(n)
 
 end
 
-def teste(count)
 
-    return 1 if count == 2
-     
+def teste2(*parametros)
+
+    return 1 if parametros.include? 2
+
+    a = "aa"+1 # força um erro para testar o Exception
+
     1 + 420 -3
+
+rescue Exception => e  # tratamaneto de rro em uma função
+
+    puts "Opa aconteceu erro"
+    puts e.message
+
 end
 
-a = teste 2
+a = teste2 1,3,4,5,6,7,8,9 
 
 puts a

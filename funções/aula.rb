@@ -15,4 +15,5 @@ def teste(count)
 end
 
 a = teste 2
+
 puts a

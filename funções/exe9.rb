@@ -14,6 +14,6 @@ def soma(numero)
 
 end
 
-puts "A soma dos numeros é: #{soma(20)}"
+puts "A soma dos numeros é: #{soma(8231)}"
 
 

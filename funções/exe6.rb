@@ -4,4 +4,4 @@ def volume_cilindro(altura, raio)
 
 end
 
-puts "O volume do cilindro: #{volume_cilindro(1.25, 2)}"
+puts "O volume do cilindro: #{volume_cilindro(25, 2)}"

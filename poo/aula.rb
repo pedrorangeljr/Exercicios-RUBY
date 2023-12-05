@@ -14,7 +14,7 @@ class Carro
         @nome
     end
 
-    def mostrar(marca="Marca Padrão")
+    def mostrar(marca)
         puts "Marca: #{marca} - Modelo: #{self.nome}" # equivale ao this
     end
 

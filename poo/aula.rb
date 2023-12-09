@@ -1,6 +1,6 @@
 class Carro 
 
-    def initialize(nome)
+    def initialize(nome) # contrutor
 
         @nome = nome 
 

@@ -1,10 +1,15 @@
-class Tb_livro
+class Carro
   
-    attr_accessor :id_livro, :id_editora, :nome, :assunto, :tombo, :status, :autor
-    attr_reader :porta
+    attr_accessor :nome, :prota, :painel, :roda
+    attr_reader :pneu 
+
+    def mostrar(marca = "Fiat")
+
+        puts "Marca: #{marca} - Modelo: #{self.nome}"
+    end
    
 end
 
-livro = Tb_livro.new
+carro = Carro.new
 
-puts livro.nome = "Programacao"
+Carro.new.mostrar

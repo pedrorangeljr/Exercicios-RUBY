@@ -19,9 +19,16 @@ class Point
    def y 
     @y 
    end
+
+   def each 
+      yield @x
+      yield @y 
+   end 
+
+
 end
 
 p = Point.new(1,2)
 
-p = Point.new(p.x*2, p.y*3)
+p.each {|x| print x}
 

@@ -1,34 +1,21 @@
 class Point
 
-    attr_accessor :x, :y # define os getter e setters
+  @@n = 0
+  @@totalx = 0
+  @@totaly = 0
 
-   def initialize(x, y)
+  def initialize(x,y)
 
-      @x, @y = x, y
+   @x,@y = x,y
+
+   @@n +=1
+   @@totalx += x 
+   @@totaly += y
+
+  end
+ 
+   def self.report 
 
    end
-    
-   def to_s 
-     "(#@x, #@y)"
-   end
-
-   def x 
-    @x 
-   end 
-
-   def y 
-    @y 
-   end
-
-   def each 
-      yield @x
-      yield @y 
-   end 
-
 
 end
-
-p = Point.new(1,2)
-
-p.each {|x| print x}
-

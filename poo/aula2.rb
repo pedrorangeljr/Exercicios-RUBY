@@ -14,4 +14,8 @@ class Carro
         puts "Marca: #{marca} - Modelo: #{self.nome}"
     end
    
+    private 
+    def algo_mais 
+        "Esté é um metodo privado para retornar algo a mais"
+    end
 end

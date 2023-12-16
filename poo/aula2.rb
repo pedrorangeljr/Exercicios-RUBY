@@ -18,4 +18,16 @@ class Carro
     def algo_mais 
         "Esté é um metodo privado para retornar algo a mais"
     end
+    def algo_mais 
+        "Esté é um metodo privado para retornar algo a mais"
+    end
+    def algo_mais 
+        "Esté é um metodo privado para retornar algo a mais"
+    end
+    def algo_mais 
+        "Esté é um metodo privado para retornar algo a mais"
+    end
+    def algo_mais 
+        "Esté é um metodo privado para retornar algo a mais"
+    end
 end

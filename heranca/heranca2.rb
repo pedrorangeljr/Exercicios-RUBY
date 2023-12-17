@@ -10,3 +10,5 @@ puts aluno.mostrar
 puts "-------------------------------------------"
 
 puts funcionario.algo_mais2
+
+puts aluno.mostrar

@@ -18,7 +18,7 @@ class Cadastro
       "this is method public"
      end
 
-     protected 
+     
      def algo_mais3_protegido 
         "Esse é um metodo protegido"
      end

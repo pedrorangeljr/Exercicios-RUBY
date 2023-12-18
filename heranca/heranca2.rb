@@ -12,3 +12,5 @@ puts "-------------------------------------------"
 puts funcionario.algo_mais2
 
 puts aluno.mostrar
+
+puts aluno.algo_mais3_protegido

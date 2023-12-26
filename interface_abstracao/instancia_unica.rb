@@ -11,3 +11,4 @@ class InstanciaUnica
     "Esse é o test 2"
   end
 end
+
